@@ -34,7 +34,7 @@ There can be *multiple* plants in *one zone*!
 
 
 **The "tree" table consists of this data:**
-- tree_id [primary key]
+- tree_id [primary key] (a unique number for each tree. Each number can ONLY BE USED ONCE!)
 - tree_nr (defines the tree number from an area area)
 - coordinate (an IP address that describes where the plant is located)
 - height (defines the height of the tree in meters)
