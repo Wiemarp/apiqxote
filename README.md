@@ -24,7 +24,6 @@ There are five tables inside of the database.
 - coordinate (an IP address that describes where the plant is located)
 - species (the Latin name for the plant)
 - cover (a percentage from 1 - 100 that defines how much of the area the plant covers)
-- class (is the same as the classification in the "zone" table)
 - temperature (a number that describes the temperature in Celius of the weather outside when the plant was recorded)
 - humidity (a percentage from 1 - 100 that describes the humidity of the air)
 - date (a date in the format of YYYY-MM-DD or year-month-day of when the plant was recorded)
