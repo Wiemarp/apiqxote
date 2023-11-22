@@ -7896,28 +7896,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wiema\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\svenc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wiema\\source\\repos\\apiqxote\\apiqxote\\apiqxote\\apiqxote.csproj",
+      "projectUniqueName": "C:\\Users\\svenc\\OneDrive\\Documents\\GitHub\\apiqxote\\apiqxote\\apiqxote\\apiqxote.csproj",
       "projectName": "apiqxote",
-      "projectPath": "C:\\Users\\wiema\\source\\repos\\apiqxote\\apiqxote\\apiqxote\\apiqxote.csproj",
-      "packagesPath": "C:\\Users\\wiema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wiema\\source\\repos\\apiqxote\\apiqxote\\apiqxote\\obj\\",
+      "projectPath": "C:\\Users\\svenc\\OneDrive\\Documents\\GitHub\\apiqxote\\apiqxote\\apiqxote\\apiqxote.csproj",
+      "packagesPath": "C:\\Users\\svenc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\svenc\\OneDrive\\Documents\\GitHub\\apiqxote\\apiqxote\\apiqxote\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\wiema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\svenc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -7999,7 +7996,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },
