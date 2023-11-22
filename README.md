@@ -7,8 +7,6 @@ Please clone the repository and connect it to your local host before use!
 ### How to connect to localhost
 
 ## Database
-![image](https://github.com/Wiemarp/apiqxote/assets/105361270/430d3c8b-3656-468f-b58f-8092fd668b1c)
-
 **Decimals can go to two digits**
 
 There are five tables inside of the database.
