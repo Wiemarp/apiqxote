@@ -3,8 +3,10 @@
 Please clone the repository and connect it to your local host before use!
 
 ### How to clone the repository
+[Work in progress...]
 
 ### How to connect to localhost
+[Work in progress...]
 
 ## Database
 **Decimals can go to two digits**
