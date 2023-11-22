@@ -1,7 +1,11 @@
 
-using apiqxote.Data;
+using Microsoft.AspNetCore.OData;
+using Microsoft.OData.ModelBuilder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Org.BouncyCastle.Asn1.X509;
+using apiqxote.Models;
+using apiqxote.databaseqxote;
 
 namespace apiqxote
 {
@@ -14,19 +18,29 @@ namespace apiqxote
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddDbContext<DatabaseqxoteContext>(options =>
+               options.UseMySQL("Data Source=localhost;Database=databaseqxote;Uid=root;"));
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            var modelBuilder = new ODataConventionModelBuilder();
+            modelBuilder.EntityType<Animal>();
+            //modelBuilder.EntityType<BioConcentration>();
+            //modelBuilder.EntityType<Plant>();
+            //modelBuilder.EntityType<Tree>();
+            //modelBuilder.EntityType<TreeName>();
+            modelBuilder.EntityType<Zone>();
 
             builder.Services.AddSwaggerGen(config =>
             {
                 config.SwaggerDoc("v1", new OpenApiInfo() { Title = "API Docs", Version = "v1" });
             });
 
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("QxoteConnectionString"));
-            });
+            builder.Services.AddControllers().AddOData(
+    options => options.Select().Filter().OrderBy().Expand().Count().SetMaxTop(null).AddRouteComponents(
+        "odata",
+        modelBuilder.GetEdmModel()));
 
             var app = builder.Build();
 
