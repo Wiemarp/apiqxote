@@ -24,17 +24,18 @@ There are five tables inside of the database.
 - coordinate (an IP address that describes where the plant is located)
 - species (the Latin name for the plant)
 - cover (a percentage from 1 - 100 that defines how much of the area the plant covers)
-- class (is the same as the classification in the "zone" table **WE WILL FIX THIS LATER**)
+- class (is the same as the classification in the "zone" table)
 - temperature (a number that describes the temperature in Celius of the weather outside when the plant was recorded)
 - humidity (a percentage from 1 - 100 that describes the humidity of the air)
-- date (a date in the format of YYYY-MM-DD or year-month-day of when the plant was recorded **WE WILL FIX THIS LATER TO A NULLABLE AND MAYBE DATETIME**)
+- date (a date in the format of YYYY-MM-DD or year-month-day of when the plant was recorded)
 
 The "plant" table is linked to the "zone" table.
 There can be *multiple* plants in *one zone*!
 
 
 **The "tree" table consists of this data:**
-- tree_nr [primary key] (defines the tree number from an area area **WILL FIX THIS LATER**)
+- tree_id [primary key]
+- tree_nr (defines the tree number from an area area)
 - coordinate (an IP address that describes where the plant is located)
 - height (defines the height of the tree in meters)
 - circumference (a decimal that describes the circumference of a tree)
@@ -76,10 +77,11 @@ The "tree_name" table is linked to the "tree" table.
 - species_name (the Latin name of the species)
 - coordinate (the coordinate where the animal was recorded)
 - abundance (the amount of the animal spotted)
-- overboard (???)
+- overboard (not exactly sure what it is other than an int **ASK LATER WHAT THIS MEANS**)
 - zone [foreign key] (a letter that is connected to the zone letter from the "zone" table where the animal was recorded)
 
 The "animal" table is linked to the "zone" table.
 There can be *multiple* animals spotted in *one zone*!
 
 ## API Documentation
+[Work in progress...]
