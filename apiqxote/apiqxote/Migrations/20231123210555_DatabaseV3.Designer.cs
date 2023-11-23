@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using apiqxote.databaseqxote;
 
@@ -10,9 +11,11 @@ using apiqxote.databaseqxote;
 namespace apiqxote.Migrations
 {
     [DbContext(typeof(DatabaseqxoteContext))]
-    partial class DatabaseqxoteContextModelSnapshot : ModelSnapshot
+    [Migration("20231123210555_DatabaseV3")]
+    partial class DatabaseV3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

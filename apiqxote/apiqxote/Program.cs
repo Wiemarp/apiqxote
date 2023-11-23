@@ -20,16 +20,17 @@ namespace apiqxote
             builder.Services.AddControllers();
             builder.Services.AddDbContext<DatabaseqxoteContext>(options =>
                options.UseMySQL("Data Source=localhost;Database=databaseqxote;Uid=root;"));
+            builder.Services.AddAutoMapper(typeof(Program).Assembly);
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var modelBuilder = new ODataConventionModelBuilder();
             modelBuilder.EntityType<Animal>();
-            //modelBuilder.EntityType<BioConcentration>();
-            //modelBuilder.EntityType<Plant>();
-            //modelBuilder.EntityType<Tree>();
-            //modelBuilder.EntityType<TreeName>();
+            modelBuilder.EntityType<BioConcentration>();
+            modelBuilder.EntityType<Plant>();
+            modelBuilder.EntityType<Tree>().HasKey(entity => entity.TreeNr);
+            modelBuilder.EntityType<TreeName>();
             modelBuilder.EntityType<Zone>();
 
             builder.Services.AddSwaggerGen(config =>
