@@ -27,7 +27,7 @@ public partial class Animal
 
     public string? Coverboards { get; set; }
 
-    public string ZoneZone { get; set; } = null!;
+    public string Zone { get; set; } = null!;
 
-    public virtual Zone ZoneZoneNavigation { get; set; } = null!;
+    public virtual Zone ZoneNavigation { get; set; } = null!;
 }

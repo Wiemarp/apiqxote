@@ -59,7 +59,7 @@ The "bio_concentration" table is linked to the "tree" table.
 
 **The "tree_name" table consists of this data:**
 - tree_name [primary key] (the Latin name for the tree)
-- coordinate_count (the number of trees that are on this coordinate)
+- coordinate_count (the number of trees that are on this coördinate)
 
 The "tree_name" table is linked to the "tree" table.
 

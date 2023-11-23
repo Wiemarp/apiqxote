@@ -7,7 +7,9 @@ public partial class Tree
 {
     public int TreeNr { get; set; }
 
-    public string? Coördinate { get; set; }
+    public string Zone { get; set; } = null!;
+
+    public string? Coordinate { get; set; }
 
     public decimal? Height { get; set; }
 
@@ -18,8 +20,6 @@ public partial class Tree
     public int BioConcentrationId { get; set; }
 
     public string TreeName { get; set; } = null!;
-
-    public string Zone { get; set; } = null!;
 
     public virtual BioConcentration BioConcentration { get; set; } = null!;
 
