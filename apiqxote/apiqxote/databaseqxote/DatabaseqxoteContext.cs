@@ -40,7 +40,7 @@ public partial class DatabaseqxoteContext : DbContext
 
             entity.ToTable("animal");
 
-            entity.HasIndex(e => e.ZoneZone, "fk_animal_zone1");
+            entity.HasIndex(e => e.Zone, "fk_animal_zone1");
 
             entity.Property(e => e.AnimalId)
                 .HasColumnType("int(11)")
@@ -54,7 +54,7 @@ public partial class DatabaseqxoteContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("cloud_cover");
             entity.Property(e => e.Coordinates)
-                .HasMaxLength(45)
+                .HasMaxLength(90)
                 .HasDefaultValueSql("'NULL'")
                 .HasColumnName("coordinates");
             entity.Property(e => e.Coverboards)
@@ -84,12 +84,12 @@ public partial class DatabaseqxoteContext : DbContext
                 .HasDefaultValueSql("'NULL'")
                 .HasColumnType("int(11)")
                 .HasColumnName("wind_speed");
-            entity.Property(e => e.ZoneZone)
+            entity.Property(e => e.Zone)
                 .HasMaxLength(1)
-                .HasColumnName("zone_zone");
+                .HasColumnName("zone");
 
-            entity.HasOne(d => d.ZoneZoneNavigation).WithMany(p => p.Animals)
-                .HasForeignKey(d => d.ZoneZone)
+            entity.HasOne(d => d.ZoneNavigation).WithMany(p => p.Animals)
+                .HasForeignKey(d => d.Zone)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_animal_zone1");
         });
@@ -127,21 +127,17 @@ public partial class DatabaseqxoteContext : DbContext
 
         modelBuilder.Entity<Plant>(entity =>
         {
-            entity.HasKey(e => e.PlotNr).HasName("PRIMARY");
+            entity.HasKey(e => e.PlantId).HasName("PRIMARY");
 
             entity.ToTable("plant");
 
             entity.HasIndex(e => e.Zone, "fk_plant_zone1");
 
-            entity.Property(e => e.PlotNr)
-                .HasMaxLength(4)
-                .HasColumnName("plot_nr");
-            entity.Property(e => e.Class)
-                .HasMaxLength(45)
-                .HasDefaultValueSql("'NULL'")
-                .HasColumnName("class");
+            entity.Property(e => e.PlantId)
+                .HasColumnType("int(11)")
+                .HasColumnName("plant_id");
             entity.Property(e => e.Coordinate)
-                .HasMaxLength(45)
+                .HasMaxLength(90)
                 .HasDefaultValueSql("'NULL'")
                 .HasColumnName("coordinate");
             entity.Property(e => e.Cover)
@@ -155,6 +151,10 @@ public partial class DatabaseqxoteContext : DbContext
             entity.Property(e => e.Humidity)
                 .HasDefaultValueSql("'NULL'")
                 .HasColumnName("humidity");
+            entity.Property(e => e.PlotNr)
+                .HasMaxLength(4)
+                .HasDefaultValueSql("'NULL'")
+                .HasColumnName("plot_nr");
             entity.Property(e => e.Species)
                 .HasMaxLength(45)
                 .HasDefaultValueSql("'NULL'")
@@ -175,7 +175,7 @@ public partial class DatabaseqxoteContext : DbContext
 
         modelBuilder.Entity<Tree>(entity =>
         {
-            entity.HasKey(e => e.TreeNr).HasName("PRIMARY");
+            entity.HasKey(e => new { e.TreeNr, e.Zone }).HasName("PRIMARY");
 
             entity.ToTable("tree");
 
@@ -186,8 +186,12 @@ public partial class DatabaseqxoteContext : DbContext
             entity.HasIndex(e => e.Zone, "fk_tree_zone1");
 
             entity.Property(e => e.TreeNr)
+                .ValueGeneratedOnAdd()
                 .HasColumnType("int(11)")
                 .HasColumnName("tree_nr");
+            entity.Property(e => e.Zone)
+                .HasMaxLength(1)
+                .HasColumnName("zone");
             entity.Property(e => e.BioConcentrationId)
                 .HasColumnType("int(11)")
                 .HasColumnName("bio_concentration_id");
@@ -195,10 +199,10 @@ public partial class DatabaseqxoteContext : DbContext
                 .HasPrecision(10)
                 .HasDefaultValueSql("'NULL'")
                 .HasColumnName("circumference");
-            entity.Property(e => e.Coördinate)
-                .HasMaxLength(45)
+            entity.Property(e => e.Coordinate)
+                .HasMaxLength(90)
                 .HasDefaultValueSql("'NULL'")
-                .HasColumnName("coördinate");
+                .HasColumnName("coordinate");
             entity.Property(e => e.Height)
                 .HasPrecision(10)
                 .HasDefaultValueSql("'NULL'")
@@ -210,9 +214,6 @@ public partial class DatabaseqxoteContext : DbContext
                 .HasPrecision(10)
                 .HasDefaultValueSql("'NULL'")
                 .HasColumnName("volume");
-            entity.Property(e => e.Zone)
-                .HasMaxLength(1)
-                .HasColumnName("zone");
 
             entity.HasOne(d => d.BioConcentration).WithMany(p => p.Trees)
                 .HasForeignKey(d => d.BioConcentrationId)
@@ -239,10 +240,10 @@ public partial class DatabaseqxoteContext : DbContext
             entity.Property(e => e.TreeName1)
                 .HasMaxLength(45)
                 .HasColumnName("tree_name");
-            entity.Property(e => e.CoördinateCount)
-                .HasMaxLength(45)
+            entity.Property(e => e.CoordinateCount)
                 .HasDefaultValueSql("'NULL'")
-                .HasColumnName("coördinate_count");
+                .HasColumnType("int(11)")
+                .HasColumnName("coordinate_count");
         });
 
         modelBuilder.Entity<Zone>(entity =>

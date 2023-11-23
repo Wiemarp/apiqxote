@@ -7,7 +7,7 @@ public partial class TreeName
 {
     public string TreeName1 { get; set; } = null!;
 
-    public string? CoördinateCount { get; set; }
+    public int? CoordinateCount { get; set; }
 
     public virtual ICollection<Tree> Trees { get; set; } = new List<Tree>();
 }
