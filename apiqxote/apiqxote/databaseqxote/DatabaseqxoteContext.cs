@@ -67,7 +67,7 @@ public partial class DatabaseqxoteContext : DbContext
                 .HasColumnName("date");
             entity.Property(e => e.EndTime)
                 .HasDefaultValueSql("'NULL'")
-                .HasColumnType("time")
+                .HasColumnType("datetime")
                 .HasColumnName("end_time");
             entity.Property(e => e.SpeciesName)
                 .HasMaxLength(45)
@@ -75,7 +75,7 @@ public partial class DatabaseqxoteContext : DbContext
                 .HasColumnName("species_name");
             entity.Property(e => e.StartTime)
                 .HasDefaultValueSql("'NULL'")
-                .HasColumnType("time")
+                .HasColumnType("datetime")
                 .HasColumnName("start_time");
             entity.Property(e => e.Temperature)
                 .HasDefaultValueSql("'NULL'")

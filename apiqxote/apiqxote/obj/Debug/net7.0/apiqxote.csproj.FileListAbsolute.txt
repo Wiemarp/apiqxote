@@ -92,3 +92,5 @@ C:\Users\wiema\source\repos\apiqxote\apiqxote\apiqxote\obj\Debug\net7.0\refint\a
 C:\Users\wiema\source\repos\apiqxote\apiqxote\apiqxote\obj\Debug\net7.0\apiqxote.pdb
 C:\Users\wiema\source\repos\apiqxote\apiqxote\apiqxote\obj\Debug\net7.0\apiqxote.genruntimeconfig.cache
 C:\Users\wiema\source\repos\apiqxote\apiqxote\apiqxote\obj\Debug\net7.0\ref\apiqxote.dll
+C:\Users\wiema\source\repos\apiqxote\apiqxote\apiqxote\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\wiema\source\repos\apiqxote\apiqxote\apiqxote\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

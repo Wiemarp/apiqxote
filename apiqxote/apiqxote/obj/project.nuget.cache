@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0EYlSAtIbE/jOL2w5KaSSwQ2Np+Fz3LMwDGAMK3IkQ2LGrhjBmO2CKPwDrZI6mn4UUNKjZ/4Q/TmGZdZkQgqKw==",
+  "dgSpecHash": "HbwHNCIlMsPjY1jB3XLskuFi0XyG6dstCfWEG8P+pnX3E8RNhwVA64VXguTsm/ysZgEr7+CbJHV6BdFS+Xne1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\wiema\\source\\repos\\apiqxote\\apiqxote\\apiqxote\\apiqxote.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wiema\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\wiema\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
@@ -14,7 +16,7 @@
     "C:\\Users\\wiema\\.nuget\\packages\\microsoft.aspnetcore.odata\\8.2.3\\microsoft.aspnetcore.odata.8.2.3.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
-    "C:\\Users\\wiema\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\wiema\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\wiema\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
