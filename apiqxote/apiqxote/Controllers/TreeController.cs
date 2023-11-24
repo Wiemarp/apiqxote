@@ -31,18 +31,18 @@ namespace apiqxote.Controllers
 
         // POST api/<AnimalController>
         [HttpPost]
-        public async Task<ActionResult<ZoneDTO>> Post(ZoneDTO zone)
+        public async Task<ActionResult<TreeDTO>> Post(TreeDTO tree)
         {
             if (_context.Zones == null)
             {
                 return Problem("Entity set is null.");
             }
-            Zone zoneToAdd = _mapper.Map<Zone>(zone);
-            _context.Zones.Add(zoneToAdd);
+            Tree treeToAdd = _mapper.Map<Tree>(tree);
+            _context.Trees.Add(treeToAdd);
             await _context.SaveChangesAsync();
 
-            zone.Zone1 = zoneToAdd.Zone1;
-            return Ok(zone);
+            tree.TreeNr = treeToAdd.TreeNr;
+            return Ok(tree);
         }
 
         // PUT api/<AnimalController>/5

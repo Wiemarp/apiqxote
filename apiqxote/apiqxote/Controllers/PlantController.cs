@@ -31,25 +31,25 @@ namespace apiqxote.Controllers
 
         // POST api/<AnimalController>
         [HttpPost]
-        public async Task<ActionResult<ZoneDTO>> Post(ZoneDTO zone)
+        public async Task<ActionResult<PlantDTO>> Post(PlantDTO plant)
         {
             if (_context.Zones == null)
             {
                 return Problem("Entity set is null.");
             }
-            Zone zoneToAdd = _mapper.Map<Zone>(zone);
-            _context.Zones.Add(zoneToAdd);
+            Plant plantToAdd = _mapper.Map<Plant>(plant);
+            _context.Plants.Add(plantToAdd);
             await _context.SaveChangesAsync();
 
-            zone.Zone1 = zoneToAdd.Zone1;
-            return Ok(zone);
+            plant.PlantId = plantToAdd.PlantId;
+            return Ok(plant);
         }
 
         // PUT api/<AnimalController>/5
-        [HttpPut("{zoneName}")]
-        public async Task<ActionResult<AnimalDTO>> Put(string zoneName, ZoneDTO zone)
+        [HttpPut("{id}")]
+        public async Task<ActionResult<AnimalDTO>> Put(int id, PlantDTO plant)
         {
-            if (zoneName != zone.Zone1)
+            if (id != plant.PlantId)
             {
                 return BadRequest();
             }
@@ -57,8 +57,8 @@ namespace apiqxote.Controllers
             {
                 return Problem("Entity set is null.");
             }
-            Zone zoneToEdit = _mapper.Map<Zone>(zone);
-            _context.Entry(zoneToEdit).State = EntityState.Modified;
+            Plant plantToEdit = _mapper.Map<Plant>(plant);
+            _context.Entry(plantToEdit).State = EntityState.Modified;
 
 
             try
@@ -74,20 +74,20 @@ namespace apiqxote.Controllers
         }
 
         // DELETE api/<AnimalController>/5
-        [HttpDelete("{zoneName}")]
-        public async Task<IActionResult> Delete(string zoneName)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
             if (_context.Animals == null)
             {
                 return Problem("Entity set is null.");
             }
-            var zone = await _context.Zones.FindAsync(zoneName);
-            if (zone == null)
+            var plant = await _context.Plants.FindAsync(id);
+            if (plant == null)
             {
                 return NotFound();
             }
 
-            _context.Remove(zone);
+            _context.Remove(plant);
             await _context.SaveChangesAsync();
 
             return NoContent();
