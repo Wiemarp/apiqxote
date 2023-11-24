@@ -1,135 +1,134 @@
-animal_id,date,start_time,end_time,temperature,cloud_cover,wind_speed,species_name,coordinates,abudance,coverboards,zone
-,9/22/2023,22:55,23:55,15,0,1,Epagoge grotiana,"37.4432177,-7.9187963",1,,
-,,,,,,,Coscinia chrysocephala,,1,,
-,,,,,,,Thaumetopoea,,1,,
-,9/22/2023,22:55,23:55,15,0,1,N/A,"37.4439753,-7.9189060",,,
-,10/16/2023,22:15,23:15,19,4,3,Salebriopsis albicilla,"37.4447488,-7.9180305",1,,
-,,,,,,,Molanna angustata,,2,,
-,,,,,,,Pempelia palumbella,,1,,
-,10/16/2023,22:15,23:15,19,4,1,Acontia lucida,"37.445047,-7.9180305",1,,
-,,,,,,,Charissa mudiccara,,2,,
-,,,,,,,Nomophila noctuella,,1,,
-,,,,,,,Acrobasis consociella,,1,,
-,,,,,,,Rhodometra sacraria,,1,,
-,,,,,,,Tortricodes alternella,,5,,
-,,,,,,,Pediasia contaminella,,3,,
-,,,,,,,Euxoa obelisca,,1,,
-,,,,,,,Coscinia chrysocephala,,1,,
-,10/18/2023,21:45,22:45,18,4,3,Rhodometra sacraria,,2,,
-,,,,,,,Pediasia contaminella,,1,,
-,,,,,,, Agriphila geniculea,,4,,
-,,,,,,,Mniotype occidentalis,,1,,
-,,,,,,,Thaumetopoea herculeana,,1,,
-,,,,,,,Mythimna vitellina,,1,,
-,,,,,,,Etiella zinckenella,,4,,
-,10/18/2023,21:45,22:45,18,4,3,Pediasia contaminella,"37.444078,-7.917379",1,,
-,,,,,,,Epirrhoe tristata,,1,,
-,,,,,,,Catoptria verellus,,1,,
-,10/20/2023,22:30,23:30,14,4,1,Eilema caniola,,1,,
-,,,,,,,Colobochyla salicalis,,2,,
-,,,,,,,Ectropis crepuscularia,,1,,
-,,,,,,,Nebula ibericata ,,1,,
-,,,,,,,Peribatodes rhomboidaria,,1,,
-,,,,,,,Compsoptera opacaria,,1,,
-,,,,,,,Ecleora solieraria,,1,,
-,10/20/2023,22:30,23:30,14,4,0,Endotrichia flammealis,"37.443191,-7.91619",1,,
-,,,,,,,Notocelia roborana,,1,,
-,,,,,,,Compsoptera opacaria,,1,,
-,,,,,,,Rhodometra sacraria,,1,,
-,,,,,,,Matilella fusca,,1,,
-,10/23/2023,22:24,23:24,12,2,0,Xestia xanthographa,,1,,
-,,,,,,,Pempelia palumbella,,1,,
-,,,,,,,Euxoa nigricans,,1,,
-,,,,,,,Tortricodes alternella,,1,,
-,10/30/2023,22:25,23:25,13,0,0,Compsoptera opacaria,"37.4427649,-7.9166630",1,,
-,,,,,,,Endotrichia flammealis,,1,,
-,10/30/2023,22:25,23:25,13,2,0,Compsoptera opacaria,"37.443035,-7.917116",1,,
-,10/31/2023,22:20,23:20,14,2,2,Crambus perlella,"37.443382,-7.917591",1,,
-,10/31/2023,22:20,23:20,14,2,1,Compsoptera opacaria,"37.443547,-7.917737",1,,
-,11/3/2023,22:25,23:25,13,0,0,Compsoptera opacaria,"37.4427649,-7.9166630",1,,
-,,,,,,,Larentia malvata ,,1,,
-,,,,,,,Parapoynx stratiotata,,1,,
-,,,,,,,Hyrdis ornatalis,,,,
-,,,,,,,Evergestis isatidalis,,,,
-,9/19/2023,9:54,11:20,19,0,2,Maniola Jurtina 1,"37.4440866,-7.9189006",,,
-,,,,,,,Maniola Jurtina 2,"37.4450339,-7.9188463",,,
-,,,,,,,Lycaena phlaeas 1,"37.4450797,-7.9190833",,,
-,,,,,,,Polymmatus bellargus 1,"37.4435017,-7.9164252",,,
-,,,,,, ,Lycaena phlaeas 2,"37.4430481,-7.9159357",,,
-,,,,,,,Maniola Jurtina 3,"37.4429281,-7.9161775",,,
-,,,,,,,,,,,
-,9/25/2023,9:38,10:50,22,0,1,Maniola Jurtina 1,"37.4449511,-7.9195470",,,
-,,,,,,,Lycaena phlaeas 1,"37.4451777,-7.9188352",,,
-,,,,,,,Maniola Jurtina 2,"37.4431131,-7.9159508",,,
-,,,,,,,Lycaena phlaeas 2,"37.4427343,-7.9156759",,,
-,,,,,,,Aricia agestis,"37.4425341,-7.9165982",,,
-,,,,,,,Maniola Jurtina 3,"37.4433628,-7.9183494",,,
-,,,,,,,Papilio Machaon,"37.4433758,-7.9183065",,,
-,,,,,,,Mariola Jurtina 4,"37.4429465,-7.9182729",,,
-,,,,,,,Leptotes pirithous,"37.4432638,-7.9188872",,,
-,,,,,,,,,,,
-,9/27/2023,10:10,10:55,24,0,1,Lampides boeticus 1,"37.444066,-7.918897",,,
-,,,,,,,Lampides boeticus 2,"37.444885,-7.918897",,,
-,,,,,,,Lampides boeticus 3,"37.444885,-7.918897",,,
-,,,,,,,Lampides boeticus 4,"37.444885,-7.918897",,,
-,,,,,,,Maniola jurtina 1,"37.444126,-7.917364",,,
-,,,,,,,Lycaena phlaeas 1 ,"37.4438249,-7.9167887",,,
-,,,,,,,Maniola jurtina 2,"37.4435323,-7.9177154",,,
-,,18:28,19:23,,4//9,3,Passer domesticus,,30,,
-,,,,,,,Streptopelia decaocto,,5,,
-,,,,,,,Phylloscopus collybita,,1,,
-,,,,,,,Cettia cetti,,1,,
-,,,,,,,Erithacus rubecula,,6,,
-,,,,,,,Turdus merula,,4,,
-,,,,,,,Certhia brachydactyla,,1,,
-,,,,,,,Sylvia melanocephala,,1,,
-,,17:52,19:10,,2//9,2,Streptopelia decaocto,,5,,
-,,,,,,,Passer domesticus,,31,,
-,,,,,,,Lullula arborea,,1,,
-,,,,,,,Alauda arvensis,,1,,
-,,,,,,,Cyanopica cooki,,35,,
-,,,,,,,Erithacus rubecula,,3,,
-,,,,,,,Sturnus unicolor,,13,,
-,,7:10,8:10,,9//9,0,Passer domesticus,,75,,
-,,,,,,,Streptopelia decaocto,,2,,
-,,,,,,,Cyanistes caeruleus,,3,,
-,,,,,,,Phylloscopus collybita,,3,,
-,,,,,,,Linaria cannabia,,1,,
-,,,,,,,Lullula arborea,,3,,
-,,,,,,,Erithacus rubecula,,3,,
-,,,,,,,Cyanopica cooki,,6,,
-,,,,,,,Sturnus unicolor,,1,,
-,,7:00,8:00,18,7,4,Passer domesticus,,62,,
-,,,,,,,Phylloscopus collybita,,1,,
-,,,,,,,Erithacus rubecula,,3,,
-,,,,,,,Spinus spinus,,1,,
-,,,,,,,Lullula arborea,,1,,
-,,,,,,,Sylvia melanocephala,,1,,
-,,,,,,,Aegithalos caudatus,,1,,
-,,,,,,,Ciconia ciconia,,1,,
-,,,,,,,,,,3,A
-,,,,,,,,,,2,B
-,,,,,,,,,,5,C
-,,,,,,,,,,2,D
-,,,,,,,,,,5,E
-,,,,,,,,,,2,F
-,,,,,,,,,,2,G
-,,,,,,,,,,4,H
-,,,,,,,,,,4,I
-,,,,,,,,,,2,J
-,,,,,,,,,,4,K
-,,,,,,,,,,2,L
-,,,,,,,,,,3,M
-,,,,,,,,,,2,N
-,,,,,,,,,,3,O
-,,,,,,,,,,2,P
-,,,,,,,,,,2,Q
-,,,,,,,,,,2,R
-,,,,,,,,,,2,S
-,,,,,,,,,,3,T
-,,,,,,,,,,3,U
-,,,,,,,,,,3,V
-,,,,,,,,,,6,W
-,,,,,,,,,,2,X
-,,,,,,,,,,2,Y
-,,,,,,,,,,4,Z
+9/22/2023,22:55,23:55,15,0,1,Epagoge grotiana,"37.4432177,-7.9187963",1,,
+,,,,,,Coscinia chrysocephala,,1,,
+,,,,,,Thaumetopoea,,1,,
+9/22/2023,22:55,23:55,15,0,1,N/A,"37.4439753,-7.9189060",,,
+10/16/2023,22:15,23:15,19,4,3,Salebriopsis albicilla,"37.4447488,-7.9180305",1,,
+,,,,,,Molanna angustata,,2,,
+,,,,,,Pempelia palumbella,,1,,
+10/16/2023,22:15,23:15,19,4,1,Acontia lucida,"37.445047,-7.9180305",1,,
+,,,,,,Charissa mudiccara,,2,,
+,,,,,,Nomophila noctuella,,1,,
+,,,,,,Acrobasis consociella,,1,,
+,,,,,,Rhodometra sacraria,,1,,
+,,,,,,Tortricodes alternella,,5,,
+,,,,,,Pediasia contaminella,,3,,
+,,,,,,Euxoa obelisca,,1,,
+,,,,,,Coscinia chrysocephala,,1,,
+10/18/2023,21:45,22:45,18,4,3,Rhodometra sacraria,,2,,
+,,,,,,Pediasia contaminella,,1,,
+,,,,,, Agriphila geniculea,,4,,
+,,,,,,Mniotype occidentalis,,1,,
+,,,,,,Thaumetopoea herculeana,,1,,
+,,,,,,Mythimna vitellina,,1,,
+,,,,,,Etiella zinckenella,,4,,
+10/18/2023,21:45,22:45,18,4,3,Pediasia contaminella,"37.444078,-7.917379",1,,
+,,,,,,Epirrhoe tristata,,1,,
+,,,,,,Catoptria verellus,,1,,
+10/20/2023,22:30,23:30,14,4,1,Eilema caniola,,1,,
+,,,,,,Colobochyla salicalis,,2,,
+,,,,,,Ectropis crepuscularia,,1,,
+,,,,,,Nebula ibericata ,,1,,
+,,,,,,Peribatodes rhomboidaria,,1,,
+,,,,,,Compsoptera opacaria,,1,,
+,,,,,,Ecleora solieraria,,1,,
+10/20/2023,22:30,23:30,14,4,0,Endotrichia flammealis,"37.443191,-7.91619",1,,
+,,,,,,Notocelia roborana,,1,,
+,,,,,,Compsoptera opacaria,,1,,
+,,,,,,Rhodometra sacraria,,1,,
+,,,,,,Matilella fusca,,1,,
+10/23/2023,22:24,23:24,12,2,0,Xestia xanthographa,,1,,
+,,,,,,Pempelia palumbella,,1,,
+,,,,,,Euxoa nigricans,,1,,
+,,,,,,Tortricodes alternella,,1,,
+10/30/2023,22:25,23:25,13,0,0,Compsoptera opacaria,"37.4427649,-7.9166630",1,,
+,,,,,,Endotrichia flammealis,,1,,
+10/30/2023,22:25,23:25,13,2,0,Compsoptera opacaria,"37.443035,-7.917116",1,,
+10/31/2023,22:20,23:20,14,2,2,Crambus perlella,"37.443382,-7.917591",1,,
+10/31/2023,22:20,23:20,14,2,1,Compsoptera opacaria,"37.443547,-7.917737",1,,
+11/3/2023,22:25,23:25,13,0,0,Compsoptera opacaria,"37.4427649,-7.9166630",1,,
+,,,,,,Larentia malvata ,,1,,
+,,,,,,Parapoynx stratiotata,,1,,
+,,,,,,Hyrdis ornatalis,,,,
+,,,,,,Evergestis isatidalis,,,,
+9/19/2023,9:54,11:20,19,0,2,Maniola Jurtina 1,"37.4440866,-7.9189006",,,
+,,,,,,Maniola Jurtina 2,"37.4450339,-7.9188463",,,
+,,,,,,Lycaena phlaeas 1,"37.4450797,-7.9190833",,,
+,,,,,,Polymmatus bellargus 1,"37.4435017,-7.9164252",,,
+,,,,, ,Lycaena phlaeas 2,"37.4430481,-7.9159357",,,
+,,,,,,Maniola Jurtina 3,"37.4429281,-7.9161775",,,
+,,,,,,,,,,
+9/25/2023,9:38,10:50,22,0,1,Maniola Jurtina 1,"37.4449511,-7.9195470",,,
+,,,,,,Lycaena phlaeas 1,"37.4451777,-7.9188352",,,
+,,,,,,Maniola Jurtina 2,"37.4431131,-7.9159508",,,
+,,,,,,Lycaena phlaeas 2,"37.4427343,-7.9156759",,,
+,,,,,,Aricia agestis,"37.4425341,-7.9165982",,,
+,,,,,,Maniola Jurtina 3,"37.4433628,-7.9183494",,,
+,,,,,,Papilio Machaon,"37.4433758,-7.9183065",,,
+,,,,,,Mariola Jurtina 4,"37.4429465,-7.9182729",,,
+,,,,,,Leptotes pirithous,"37.4432638,-7.9188872",,,
+,,,,,,,,,,
+9/27/2023,10:10,10:55,24,0,1,Lampides boeticus 1,"37.444066,-7.918897",,,
+,,,,,,Lampides boeticus 2,"37.444885,-7.918897",,,
+,,,,,,Lampides boeticus 3,"37.444885,-7.918897",,,
+,,,,,,Lampides boeticus 4,"37.444885,-7.918897",,,
+,,,,,,Maniola jurtina 1,"37.444126,-7.917364",,,
+,,,,,,Lycaena phlaeas 1 ,"37.4438249,-7.9167887",,,
+,,,,,,Maniola jurtina 2,"37.4435323,-7.9177154",,,
+,18:28,19:23,,4//9,3,Passer domesticus,,30,,
+,,,,,,Streptopelia decaocto,,5,,
+,,,,,,Phylloscopus collybita,,1,,
+,,,,,,Cettia cetti,,1,,
+,,,,,,Erithacus rubecula,,6,,
+,,,,,,Turdus merula,,4,,
+,,,,,,Certhia brachydactyla,,1,,
+,,,,,,Sylvia melanocephala,,1,,
+,17:52,19:10,,2//9,2,Streptopelia decaocto,,5,,
+,,,,,,Passer domesticus,,31,,
+,,,,,,Lullula arborea,,1,,
+,,,,,,Alauda arvensis,,1,,
+,,,,,,Cyanopica cooki,,35,,
+,,,,,,Erithacus rubecula,,3,,
+,,,,,,Sturnus unicolor,,13,,
+,7:10,8:10,,9//9,0,Passer domesticus,,75,,
+,,,,,,Streptopelia decaocto,,2,,
+,,,,,,Cyanistes caeruleus,,3,,
+,,,,,,Phylloscopus collybita,,3,,
+,,,,,,Linaria cannabia,,1,,
+,,,,,,Lullula arborea,,3,,
+,,,,,,Erithacus rubecula,,3,,
+,,,,,,Cyanopica cooki,,6,,
+,,,,,,Sturnus unicolor,,1,,
+,7:00,8:00,18,7,4,Passer domesticus,,62,,
+,,,,,,Phylloscopus collybita,,1,,
+,,,,,,Erithacus rubecula,,3,,
+,,,,,,Spinus spinus,,1,,
+,,,,,,Lullula arborea,,1,,
+,,,,,,Sylvia melanocephala,,1,,
+,,,,,,Aegithalos caudatus,,1,,
+,,,,,,Ciconia ciconia,,1,,
+,,,,,,,,,3,A
+,,,,,,,,,2,B
+,,,,,,,,,5,C
+,,,,,,,,,2,D
+,,,,,,,,,5,E
+,,,,,,,,,2,F
+,,,,,,,,,2,G
+,,,,,,,,,4,H
+,,,,,,,,,4,I
+,,,,,,,,,2,J
+,,,,,,,,,4,K
+,,,,,,,,,2,L
+,,,,,,,,,3,M
+,,,,,,,,,2,N
+,,,,,,,,,3,O
+,,,,,,,,,2,P
+,,,,,,,,,2,Q
+,,,,,,,,,2,R
+,,,,,,,,,2,S
+,,,,,,,,,3,T
+,,,,,,,,,3,U
+,,,,,,,,,3,V
+,,,,,,,,,6,W
+,,,,,,,,,2,X
+,,,,,,,,,2,Y
+,,,,,,,,,4,Z
